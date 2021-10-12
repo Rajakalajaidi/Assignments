@@ -1,0 +1,16 @@
+public class Evennum {
+
+	public static void main(String[] args) {
+		int n=1,x;
+		System.out.println("Even numbers from 1 t0 50 are :");
+		while(n<=50)
+		{
+			if(n%2==0)
+
+			{
+				System.out.println(n);
+			}
+			n++;
+		}
+	}
+}
