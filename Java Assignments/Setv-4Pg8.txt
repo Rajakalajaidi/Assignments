@@ -1,0 +1,27 @@
+import java.util.Iterator;
+import java.util.HashMap;
+import java.util.Set;
+
+
+public class Setv {
+
+		  public static void main(String args[]) {
+		    HashMap<String, String> hmap = new HashMap<String, String>(); 
+		    hmap.put("Key1", "Jhon");
+		    hmap.put("Key2", "Rick");
+		    hmap.put("Key3", "Ranyk");
+		    hmap.put("Key4", "Shinh");
+		    hmap.put("Key5", "Windyl");
+
+		    Set<String> keys = hmap.keySet();
+
+		    System.out.println("Set of Keys contains: ");
+
+		    Iterator<String> it = keys.iterator();
+
+		    while(it.hasNext()){
+		       System.out.println(it.next());
+		    } 
+		  }
+
+}

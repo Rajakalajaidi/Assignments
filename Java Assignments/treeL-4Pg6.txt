@@ -1,0 +1,24 @@
+import java.util.TreeSet;
+
+public class TreeL {
+
+	public static void main(String[] args) {
+		      TreeSet<Integer> treeSet = new TreeSet<Integer>();
+		      treeSet.add(20);
+		      treeSet.add(1950);
+		      treeSet.add(150);
+		      treeSet.add(200);
+		      treeSet.add(250);
+		      treeSet.add(300);
+		      treeSet.add(550);
+		      treeSet.add(500);
+		      treeSet.add(800);
+		      treeSet.add(177500);
+		      System.out.println("TreeSet Lowest value = " + treeSet.first());
+		      System.out.println("TreeSet Highest value = " + treeSet.last());
+		   }
+		
+
+	}
+
+

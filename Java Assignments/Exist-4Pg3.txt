@@ -1,0 +1,21 @@
+import java.util.Hashtable;
+
+public class ExistA {
+
+	public static void main(String[] args) {
+
+     Hashtable<String, String>hashtable = new Hashtable<String, String>();
+
+     hashtable.put("AG", "AFGANISTAN");
+     hashtable.put("BE", "BELGIUM");
+     hashtable.put("US", "UNITED STATES");
+     hashtable.put("IN", "INDIA");
+     System.out.println("hashtable : "+ hashtable + "\n");
+     
+     boolean isKeyExist = hashtable.containsKey("BE");
+     System.out.println("isKey 'BE', 'US' Exists :" + isKeyExist);
+     isKeyExist = hashtable.containsKey("EG");
+     System.out.println("isKey 'EG' Exists :" + isKeyExist);
+	}
+
+}
