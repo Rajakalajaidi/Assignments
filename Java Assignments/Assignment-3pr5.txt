@@ -1,0 +1,23 @@
+import java.util.HashSet;
+import java.util.Set;
+
+public class CopyA {
+
+	public static void main(String[] args) {
+
+		      Set<Integer> hs = new HashSet<Integer>();
+		      hs.add(01);
+		      hs.add(22);
+		      hs.add(35);
+		      hs.add(43);
+		      hs.add(64);
+		      hs.add(38);
+		      hs.add(99);
+		      hs.add(921);
+		      System.out.println("Elements in set = "+hs);
+		      System.out.println("Copying all elements...");
+		      Object[] obArr = hs.toArray();
+		      for (Object ob : obArr)
+		      System.out.println(ob);
+		   }
+}
